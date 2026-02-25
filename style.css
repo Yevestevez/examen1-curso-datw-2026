@@ -1,0 +1,88 @@
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*:not(dialog) {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+/* Variables */
+:root {
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+
+    --scala: 1.2;
+    --base: 0.9375rem;
+
+    --size-xl: calc(var(--size-lg) * var(--scala));
+    --size-lg: calc(var(--size-normal) * var(--scala));
+    --size-normal: var(--base);
+    --size-sm: calc(var(--size-normal) / var(--scala));
+    --size-xs: calc(var(--size-sm) / var(--scala));
+
+    --font-primary: 'Overpass', Arial, Helvetica, sans-serif;
+}
+
+/* Styles */
+body {
+    font-family: var(--font-primary);
+    font-size: var(--size-normal);
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+    padding: 2rem;
+}
+
+article {
+    background: linear-gradient(45deg, var(--very-dark-blue), var(--dark-blue));
+    border: solid 0.2px var(--dark-blue);
+    border-radius: 1rem;
+}
