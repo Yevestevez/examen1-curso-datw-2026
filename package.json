@@ -1,0 +1,22 @@
+{
+    "name": "examen1-curso-datw-2026",
+    "version": "1.0.0",
+    "description": "Examen práctico del primer módulo de Diseño de Aplicaciones con Tecnologías Web",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Yevestevez/examen1-curso-datw-2026.git"
+    },
+    "author": "Edu Yeves",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/Yevestevez/examen1-curso-datw-2026/issues"
+    },
+    "homepage": "https://github.com/Yevestevez/examen1-curso-datw-2026#readme",
+    "prettier": {
+        "singleQuote": true
+    }
+}
