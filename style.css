@@ -147,6 +147,7 @@ button {
     display: flex;
     align-content: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 input {
@@ -195,7 +196,7 @@ article.thanks-message {
         margin-bottom: 0;
     }
 }
-p.selection {
+p.rating-text {
     background-color: var(--dark-blue);
     border: 0.2px solid var(--very-dark-blue);
     border-radius: 5rem;
@@ -204,4 +205,8 @@ p.selection {
     padding-inline: 1rem;
     font-weight: 400;
     padding-top: 0.8rem;
+}
+
+[hidden] {
+    display: none;
 }
